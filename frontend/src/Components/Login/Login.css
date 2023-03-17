@@ -1,0 +1,33 @@
+.loginform{
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    width: 20vw;
+    background-color: white;
+    border-radius: 10px;
+    padding: 2vw 3vw;
+    gap: 2rem;
+}
+
+.inputfield{
+    height:50px;
+    padding-left: 10px;
+    font-size: 1rem;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #00b09b;
+}
+
+.loginform>h1{
+    font-family: 'Poppins';
+}
+.button{
+    height: 50px;
+    font-size: 1rem;
+    background-image: linear-gradient(to right,#00b09b,#96c93d);
+    border: none;
+    color: white;
+    font-size: 1rem;
+    border-radius: 5px;
+    margin-top: 10px;
+}

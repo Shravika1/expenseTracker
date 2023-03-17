@@ -1,0 +1,28 @@
+.trasactioncard{
+    height: 300px;
+    display: flex;
+    width: 250px;
+    flex-direction: column;
+    gap: 20px;
+    font-family: 'Poppins';
+    background-image: linear-gradient(to right,#00b09b,#96c93d);
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.transactioncardbuttons>button{
+    width: 90%;
+    background-color: white;
+    outline: none;
+    border: none;
+    padding: 15px 10px;
+    border-radius: 10px;
+    font-size: 16px;
+    height:40px;
+}
+
+.transactioncardbuttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

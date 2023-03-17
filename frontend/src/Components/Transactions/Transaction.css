@@ -1,0 +1,64 @@
+.transactionspage{
+    width: 100vw;
+
+}
+.transaction_container{
+    width: 100vw;
+    height: 60vh;
+    background-image: linear-gradient(to right,#00b09b,#96c93d);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins';
+    font-size: 2rem;
+    color: white;
+}
+
+.filter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    height: 10vh;
+}
+
+.filteroption{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.filteroption>label{
+    font-family: 'Poppins';
+    font-size: 17px;
+}
+
+.filter_button{
+    padding: 10px 30px;
+    border: none;
+    outline: none;
+    color: white;
+    font-family: 'Poppins';
+    border-radius: 4px;
+    font-size: 16px;
+    background-image: linear-gradient(#00b09b,#96c93d);
+}
+.transactions{
+    display: flex;
+    padding: 15px;
+    margin-top: 5vh;
+    gap: 6rem;
+    flex-wrap: wrap;
+}
+
+.addTransaction{
+    height: 50vh;
+    width: 20vw;
+    border: 1px solid rgb(63, 216, 63);
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    padding: 15px 30px;
+    border-radius: 7px;
+}

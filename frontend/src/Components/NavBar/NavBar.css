@@ -1,0 +1,17 @@
+.navbar{
+    background-color: white;
+    height: 7vh;
+    width: 100vw;
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+.navlink{
+    text-decoration: none;
+    color: black;
+    padding:5px 15px ;
+    border-bottom: 1px solid rgb(13, 218, 13);
+    font-family: 'Poppins';
+}
